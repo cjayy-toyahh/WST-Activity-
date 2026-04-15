@@ -1,0 +1,185 @@
+body {
+	font-family: Arial;
+}
+
+.main-container {
+	max-width: 1440px;
+	margin: 0 auto;
+	padding: 0 20px;
+	width: 100%;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 4px;
+	gap: 5px;
+}
+
+.yellowContainer {
+	background-color: #fcc302;
+}
+
+.container div {
+	color: #000;
+	padding: 10px;
+	font-size: 25px;
+	text-align: center;
+}
+
+.container-three-columns {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	margin: 0px 50px;
+	gap: 5px;
+	justify-items: center;
+}
+
+.main-title {
+	font-size: 58px;
+	font-weight: 800;
+	text-align: left;
+	margin-top: 99px;
+	margin-left: 99px;
+	margin-bottom: 40px;
+	color: white;
+	width: 650px;
+}
+
+.second-title {
+	font-size: 33px;
+	margin-left: 77px;
+	color: white;
+}
+
+.btn {
+	display: inline-block;
+	padding: 20px;
+	font-size: 20px;
+	margin-right: 25px;
+	color: rgb(255, 255, 255);
+	border-radius: 5px;
+	font-weight: bold;
+	position: relative;
+	right: 190px;
+	top: 50px;
+	transition: 1s;
+}
+
+.btn-contact1 {
+	background-color: #00BECA;
+}
+
+.btn-contact1:hover {
+	color: white;
+	background-color: #00BECA;
+	width: auto;
+	scale: 1.1;
+}
+
+.btn-services {
+	border: solid;
+}
+
+.btn-services:hover {
+	width: auto;
+	scale: 1.1;
+}
+.header {
+    background-color: #d9d9d9;
+    height: 80px;
+
+    display: flex;
+    align-items: center;      
+    justify-content: center;  
+}
+.nav {
+	transition: 1s;
+	text-decoration: none;
+}
+
+.navi ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	gap: 100px;
+	padding: 0;
+	margin: 0;
+}
+
+.navi ul li {
+	font-size: 28px;
+	font-family: Arial, sans-serif;
+}
+
+
+.main-subtitle {
+	font-size: 45px;
+	font-weight: bold;
+	color: #313244;
+	text-align: left;
+	margin-top: 99px;
+	margin-left: 99px;
+	margin-bottom: 40px;
+	width: 550px;
+}
+
+.main-desc {
+	font-size: 30px;
+	text-align: left;
+	margin-left: 99px;
+	color: #313244;
+	width: 550px;
+}
+
+.btn-service {
+	background: #fcc302;
+	color: white;
+	border-radius: 9px;
+	margin-left: 40px;
+}
+
+.btn-service:hover {
+	width: auto;
+	scale: 1.1;
+}
+
+.title {
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.rdLayer {
+	text-align: center;
+	font-size: 20px;
+	color: white;
+	width: 650px;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+.second-caption {
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 25px;
+}
+
+.second-panel-pictures {
+	align-items: center;
+	align-content: center;
+}
+
+.second-panel-desc {
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	width: 65%;
+	margin-bottom: 60px;
+}
